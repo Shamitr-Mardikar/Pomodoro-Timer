@@ -22,20 +22,17 @@
             <h1>pomodoro timer</h1>
       
             <div class="panel">
-            
-            <p id="study" class="active">Study</p>
-            <p id="break">Break</p>
-            
+                <p id="study" class="active">Study</p>
+                <p id="break">Break</p>
             </div>
 
-            <div class="circle">
-                
-                <div class="time">
-                    <p id="hours">01</p>
-                    <p>:</p>
-                    <p id="minutes">00</p>
-                    <p>:</p>
-                    <p id="seconds">00</p>
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
                 </div>
 
             </div>
@@ -44,7 +41,7 @@
             <div class="controls">
                 <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
             
-                <a id="reset" href="/"><i class="fa-solid fa-repeat"></i></a>
+                <a id="reset" href=""><i class="fa-solid fa-repeat"></i></a>
             </div>
         </div>
     </section>
