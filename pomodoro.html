@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href="./pomodoro.css">
+    <script src="https://kit.fontawesome.com/669524fc73.js" crossorigin="anonymous"></script>
+    
+
+
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>pomodoro timer</h1>
+      
+            <div class="panel">
+            
+            <p id="study" class="active">Study</p>
+            <p id="break">Break</p>
+            
+            </div>
+
+            <div class="circle">
+                
+                <div class="time">
+                    <p id="hours">01</p>
+                    <p>:</p>
+                    <p id="minutes">00</p>
+                    <p>:</p>
+                    <p id="seconds">00</p>
+                </div>
+
+            </div>
+        
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+            
+                <a id="reset" href="/"><i class="fa-solid fa-repeat"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./pomodoro.js"></script>
+
+</body>
+</html>
