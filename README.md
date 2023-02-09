@@ -2,7 +2,7 @@
 Simple Pomodoro Timer to use on the background while working.
 
 # How to use
-Install Github Desktop from the link below :
+Install Github Desktop from the link :
 https://desktop.github.com/
 
 login with your github account and clone this repository.
